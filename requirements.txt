@@ -1,0 +1,34 @@
+# Python 3.11+ optimized DeFi Reputation Scoring System
+# This project leverages Python 3.11+ features for improved performance
+
+# Core FastAPI and web framework
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Kafka integration
+aiokafka>=0.9.0
+
+# Data processing (simplified for Python 3.11+ compatibility)
+pandas>=2.1.4
+
+# HTTP client
+httpx>=0.25.2
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+
+# Date utilities
+python-dateutil>=2.8.2
+
+# Note: This project uses Python 3.11+ features including:
+# - Improved type hints (list[T], dict[K,V])
+# - Walrus operator (:=) in comprehensions
+# - @dataclass with slots=True for performance
+# - @lru_cache for method caching
+# - frozenset for immutable collections
